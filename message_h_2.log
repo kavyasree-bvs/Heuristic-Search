@@ -1,0 +1,234 @@
+initial state:
+1 | B 
+2 | C E 
+3 | A D 
+
+it= 0 , queue= 0 , f=g+h= 11 , depth=  0
+it= 1 , queue= 5 , f=g+h= 10 , depth=  1
+it= 2 , queue= 8 , f=g+h= 7 , depth=  2
+it= 3 , queue= 9 , f=g+h= 10 , depth=  3
+it= 4 , queue= 10 , f=g+h= 10 , depth=  3
+it= 5 , queue= 13 , f=g+h= 9 , depth=  4
+it= 6 , queue= 16 , f=g+h= 10 , depth=  4
+it= 7 , queue= 17 , f=g+h= 10 , depth=  5
+it= 8 , queue= 18 , f=g+h= 10 , depth=  5
+it= 9 , queue= 19 , f=g+h= 10 , depth=  5
+it= 10 , queue= 20 , f=g+h= 10 , depth=  5
+it= 11 , queue= 21 , f=g+h= 10 , depth=  6
+it= 12 , queue= 20 , f=g+h= 11 , depth=  2
+it= 13 , queue= 21 , f=g+h= 11 , depth=  2
+it= 14 , queue= 22 , f=g+h= 8 , depth=  3
+it= 15 , queue= 21 , f=g+h= 11 , depth=  2
+it= 16 , queue= 22 , f=g+h= 11 , depth=  4
+it= 17 , queue= 24 , f=g+h= 10 , depth=  5
+it= 18 , queue= 27 , f=g+h= 11 , depth=  4
+it= 19 , queue= 30 , f=g+h= 11 , depth=  5
+it= 20 , queue= 29 , f=g+h= 11 , depth=  5
+it= 21 , queue= 30 , f=g+h= 11 , depth=  6
+it= 22 , queue= 29 , f=g+h= 11 , depth=  6
+it= 23 , queue= 30 , f=g+h= 11 , depth=  6
+it= 24 , queue= 30 , f=g+h= 11 , depth=  6
+it= 25 , queue= 31 , f=g+h= 11 , depth=  6
+it= 26 , queue= 32 , f=g+h= 12 , depth=  1
+it= 27 , queue= 33 , f=g+h= 12 , depth=  1
+it= 28 , queue= 34 , f=g+h= 12 , depth=  1
+it= 29 , queue= 37 , f=g+h= 9 , depth=  2
+it= 30 , queue= 40 , f=g+h= 10 , depth=  3
+it= 31 , queue= 43 , f=g+h= 9 , depth=  4
+it= 32 , queue= 44 , f=g+h= 10 , depth=  3
+it= 33 , queue= 47 , f=g+h= 10 , depth=  3
+it= 34 , queue= 48 , f=g+h= 10 , depth=  3
+it= 35 , queue= 49 , f=g+h= 10 , depth=  5
+it= 36 , queue= 52 , f=g+h= 10 , depth=  5
+it= 37 , queue= 53 , f=g+h= 11 , depth=  4
+it= 38 , queue= 54 , f=g+h= 11 , depth=  4
+it= 39 , queue= 55 , f=g+h= 11 , depth=  4
+it= 40 , queue= 56 , f=g+h= 10 , depth=  5
+it= 41 , queue= 55 , f=g+h= 11 , depth=  4
+it= 42 , queue= 55 , f=g+h= 11 , depth=  4
+it= 43 , queue= 56 , f=g+h= 11 , depth=  4
+it= 44 , queue= 57 , f=g+h= 11 , depth=  4
+it= 45 , queue= 59 , f=g+h= 10 , depth=  5
+it= 46 , queue= 60 , f=g+h= 11 , depth=  5
+it= 47 , queue= 61 , f=g+h= 9 , depth=  6
+it= 48 , queue= 62 , f=g+h= 10 , depth=  7
+it= 49 , queue= 63 , f=g+h= 10 , depth=  7
+it= 50 , queue= 64 , f=g+h= 11 , depth=  6
+it= 51 , queue= 65 , f=g+h= 11 , depth=  6
+it= 52 , queue= 64 , f=g+h= 12 , depth=  1
+it= 53 , queue= 66 , f=g+h= 11 , depth=  2
+it= 54 , queue= 69 , f=g+h= 12 , depth=  1
+it= 55 , queue= 72 , f=g+h= 11 , depth=  2
+it= 56 , queue= 73 , f=g+h= 12 , depth=  3
+it= 57 , queue= 74 , f=g+h= 12 , depth=  3
+it= 58 , queue= 74 , f=g+h= 9 , depth=  4
+it= 59 , queue= 75 , f=g+h= 12 , depth=  3
+it= 60 , queue= 74 , f=g+h= 12 , depth=  5
+it= 61 , queue= 75 , f=g+h= 12 , depth=  5
+it= 62 , queue= 76 , f=g+h= 12 , depth=  5
+it= 63 , queue= 77 , f=g+h= 12 , depth=  5
+it= 64 , queue= 78 , f=g+h= 12 , depth=  7
+it= 65 , queue= 79 , f=g+h= 12 , depth=  7
+it= 66 , queue= 80 , f=g+h= 12 , depth=  7
+it= 67 , queue= 81 , f=g+h= 12 , depth=  2
+it= 68 , queue= 82 , f=g+h= 8 , depth=  3
+it= 69 , queue= 83 , f=g+h= 9 , depth=  4
+it= 70 , queue= 82 , f=g+h= 9 , depth=  4
+it= 71 , queue= 83 , f=g+h= 12 , depth=  6
+it= 72 , queue= 85 , f=g+h= 12 , depth=  5
+it= 73 , queue= 84 , f=g+h= 12 , depth=  5
+it= 74 , queue= 85 , f=g+h= 12 , depth=  5
+it= 75 , queue= 86 , f=g+h= 12 , depth=  5
+it= 76 , queue= 86 , f=g+h= 12 , depth=  5
+it= 77 , queue= 87 , f=g+h= 12 , depth=  5
+it= 78 , queue= 86 , f=g+h= 12 , depth=  5
+it= 79 , queue= 86 , f=g+h= 12 , depth=  5
+it= 80 , queue= 87 , f=g+h= 12 , depth=  5
+it= 81 , queue= 90 , f=g+h= 11 , depth=  6
+it= 82 , queue= 91 , f=g+h= 12 , depth=  6
+it= 83 , queue= 92 , f=g+h= 12 , depth=  3
+it= 84 , queue= 93 , f=g+h= 12 , depth=  3
+it= 85 , queue= 94 , f=g+h= 12 , depth=  3
+it= 86 , queue= 95 , f=g+h= 12 , depth=  3
+it= 87 , queue= 96 , f=g+h= 12 , depth=  3
+it= 88 , queue= 97 , f=g+h= 11 , depth=  4
+it= 89 , queue= 100 , f=g+h= 10 , depth=  5
+it= 90 , queue= 101 , f=g+h= 11 , depth=  5
+it= 91 , queue= 102 , f=g+h= 12 , depth=  3
+it= 92 , queue= 102 , f=g+h= 11 , depth=  4
+it= 93 , queue= 103 , f=g+h= 12 , depth=  4
+it= 94 , queue= 104 , f=g+h= 12 , depth=  5
+it= 95 , queue= 107 , f=g+h= 11 , depth=  6
+it= 96 , queue= 110 , f=g+h= 12 , depth=  5
+it= 97 , queue= 111 , f=g+h= 12 , depth=  6
+it= 98 , queue= 112 , f=g+h= 10 , depth=  7
+it= 99 , queue= 111 , f=g+h= 12 , depth=  6
+it= 100 , queue= 112 , f=g+h= 12 , depth=  6
+it= 101 , queue= 113 , f=g+h= 12 , depth=  5
+it= 102 , queue= 114 , f=g+h= 12 , depth=  5
+it= 103 , queue= 113 , f=g+h= 12 , depth=  7
+it= 104 , queue= 114 , f=g+h= 12 , depth=  7
+it= 105 , queue= 115 , f=g+h= 12 , depth=  7
+it= 106 , queue= 116 , f=g+h= 12 , depth=  7
+it= 107 , queue= 117 , f=g+h= 12 , depth=  8
+it= 108 , queue= 118 , f=g+h= 13 , depth=  6
+it= 109 , queue= 119 , f=g+h= 13 , depth=  6
+it= 110 , queue= 119 , f=g+h= 13 , depth=  6
+it= 111 , queue= 120 , f=g+h= 13 , depth=  6
+it= 112 , queue= 122 , f=g+h= 13 , depth=  6
+it= 113 , queue= 122 , f=g+h= 12 , depth=  7
+it= 114 , queue= 123 , f=g+h= 13 , depth=  6
+it= 115 , queue= 124 , f=g+h= 12 , depth=  7
+it= 116 , queue= 127 , f=g+h= 13 , depth=  2
+it= 117 , queue= 128 , f=g+h= 13 , depth=  2
+it= 118 , queue= 129 , f=g+h= 13 , depth=  2
+it= 119 , queue= 130 , f=g+h= 10 , depth=  3
+it= 120 , queue= 131 , f=g+h= 11 , depth=  4
+it= 121 , queue= 132 , f=g+h= 11 , depth=  4
+it= 122 , queue= 131 , f=g+h= 13 , depth=  2
+it= 123 , queue= 132 , f=g+h= 13 , depth=  2
+it= 124 , queue= 132 , f=g+h= 13 , depth=  2
+it= 125 , queue= 135 , f=g+h= 13 , depth=  6
+it= 126 , queue= 136 , f=g+h= 13 , depth=  7
+it= 127 , queue= 135 , f=g+h= 13 , depth=  2
+it= 128 , queue= 136 , f=g+h= 13 , depth=  2
+it= 129 , queue= 137 , f=g+h= 13 , depth=  2
+it= 130 , queue= 138 , f=g+h= 13 , depth=  2
+it= 131 , queue= 139 , f=g+h= 13 , depth=  2
+it= 132 , queue= 140 , f=g+h= 12 , depth=  3
+it= 133 , queue= 139 , f=g+h= 13 , depth=  4
+it= 134 , queue= 140 , f=g+h= 13 , depth=  6
+it= 135 , queue= 139 , f=g+h= 13 , depth=  6
+it= 136 , queue= 138 , f=g+h= 13 , depth=  6
+it= 137 , queue= 139 , f=g+h= 13 , depth=  6
+it= 138 , queue= 140 , f=g+h= 13 , depth=  6
+it= 139 , queue= 140 , f=g+h= 13 , depth=  3
+it= 140 , queue= 143 , f=g+h= 13 , depth=  7
+it= 141 , queue= 144 , f=g+h= 13 , depth=  6
+it= 142 , queue= 145 , f=g+h= 13 , depth=  6
+it= 143 , queue= 144 , f=g+h= 13 , depth=  6
+it= 144 , queue= 144 , f=g+h= 13 , depth=  6
+it= 145 , queue= 145 , f=g+h= 13 , depth=  6
+it= 146 , queue= 145 , f=g+h= 13 , depth=  7
+it= 147 , queue= 147 , f=g+h= 13 , depth=  7
+it= 148 , queue= 148 , f=g+h= 13 , depth=  4
+it= 149 , queue= 147 , f=g+h= 13 , depth=  4
+it= 150 , queue= 148 , f=g+h= 13 , depth=  4
+it= 151 , queue= 147 , f=g+h= 13 , depth=  4
+it= 152 , queue= 147 , f=g+h= 13 , depth=  6
+it= 153 , queue= 150 , f=g+h= 12 , depth=  7
+it= 154 , queue= 151 , f=g+h= 13 , depth=  6
+it= 155 , queue= 152 , f=g+h= 13 , depth=  6
+it= 156 , queue= 155 , f=g+h= 13 , depth=  6
+it= 157 , queue= 157 , f=g+h= 12 , depth=  7
+it= 158 , queue= 159 , f=g+h= 13 , depth=  6
+it= 159 , queue= 160 , f=g+h= 13 , depth=  7
+it= 160 , queue= 160 , f=g+h= 13 , depth=  7
+it= 161 , queue= 159 , f=g+h= 13 , depth=  7
+it= 162 , queue= 158 , f=g+h= 13 , depth=  8
+it= 163 , queue= 157 , f=g+h= 13 , depth=  8
+it= 164 , queue= 156 , f=g+h= 13 , depth=  8
+it= 165 , queue= 156 , f=g+h= 13 , depth=  9
+it= 166 , queue= 157 , f=g+h= 13 , depth=  9
+it= 167 , queue= 158 , f=g+h= 13 , depth=  8
+it= 168 , queue= 157 , f=g+h= 13 , depth=  8
+it= 169 , queue= 158 , f=g+h= 13 , depth=  3
+it= 170 , queue= 159 , f=g+h= 13 , depth=  3
+it= 171 , queue= 160 , f=g+h= 11 , depth=  4
+it= 172 , queue= 161 , f=g+h= 12 , depth=  5
+it= 173 , queue= 161 , f=g+h= 11 , depth=  6
+it= 174 , queue= 162 , f=g+h= 12 , depth=  5
+it= 175 , queue= 162 , f=g+h= 11 , depth=  6
+it= 176 , queue= 163 , f=g+h= 9 , depth=  7
+it= 177 , queue= 164 , f=g+h= 12 , depth=  7
+it= 178 , queue= 163 , f=g+h= 12 , depth=  7
+it= 179 , queue= 164 , f=g+h= 12 , depth=  7
+it= 180 , queue= 163 , f=g+h= 12 , depth=  8
+it= 181 , queue= 164 , f=g+h= 12 , depth=  8
+it= 182 , queue= 165 , f=g+h= 10 , depth=  9
+success! depth= 10 , total_goal_tests= 183 , max_queue_size= 165
+solution path:
+1 | B 
+2 | C E 
+3 | A D 
+
+1 | B 
+2 | C E D 
+3 | A 
+
+1 | 
+2 | C E D B 
+3 | A 
+
+1 | A 
+2 | C E D B 
+3 | 
+
+1 | A B 
+2 | C E D 
+3 | 
+
+1 | A B 
+2 | C E 
+3 | D 
+
+1 | A B 
+2 | C 
+3 | D E 
+
+1 | A B C 
+2 | 
+3 | D E 
+
+1 | A B C 
+2 | E 
+3 | D 
+
+1 | A B C D 
+2 | E 
+3 | 
+
+1 | A B C D E 
+2 | 
+3 | 
+
