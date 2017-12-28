@@ -6,8 +6,8 @@ Texas A&M University
 
 By,
 
-Venkata Satya Kavya Sree Bondapalli,
+Venkata Satya Kavya Sree Bondapalli
 
-Graduate Student,
+Graduate Student
 
 Texas A&M University- College Station
